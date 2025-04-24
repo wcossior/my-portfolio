@@ -23,6 +23,7 @@ export const Technologies = () => {
                 <TechnologyItem icon={<RiTailwindCssFill className='text-[100px] text-sky-400' />} title="TAILWIND" />
                 <TechnologyItem icon={<SiDaisyui className='text-[100px] text-pink-400' />} title="DAISYUI" />
                 <TechnologyItem icon={<FaReact className='text-[100px] text-sky-400' />} title="REACT" />
+                <TechnologyItem icon={<SiTypescript className='text-[100px] text-blue-600' />} title="TYPESCRIPT" />
                 <TechnologyItem icon={<IoLogoFirebase className='text-[100px] text-yellow-400' />} title="FIREBASE" />
             </div>
         </div>
