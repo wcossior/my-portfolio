@@ -13,7 +13,7 @@ export const Technologies = () => {
     return (
         <div className='mx-25 text-center mb-8'>
             <div className='flex flex-row items-center mb-12'>
-                <p className='flex-1 text-6xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent leading-relaxed'>Technologies</p>
+                <p className='flex-none mr-6 text-6xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent leading-relaxed'>Technologies</p>
                 <div className='flex-2 h-[3px] w-full bg-emerald-400 rounded-sm'></div>
             </div>
             <div className='w-[60%] grid grid-cols-3 gap-6 m-auto'>

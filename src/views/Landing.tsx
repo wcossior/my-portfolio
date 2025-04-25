@@ -3,8 +3,10 @@ import Nav from '../components/Nav';
 import { AboutDescription } from '../components/AboutDescription';
 import { Contacts } from '../components/Contacts';
 import { Technologies } from '../components/Technologies';
+import { Projects } from '../components/Projects';
 
 const Landing = () => {
+    
     return (
         <div className=''>
             <Nav></Nav>
@@ -13,6 +15,7 @@ const Landing = () => {
                 <Contacts></Contacts>
             </div>
             <Technologies></Technologies>
+            <Projects></Projects>
         </div>
     )
 }

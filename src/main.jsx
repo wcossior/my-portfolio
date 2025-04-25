@@ -5,6 +5,8 @@ import Landing from './views/Landing'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Landing></Landing>
+    <div data-theme="sunset">
+      <Landing></Landing>
+    </div>
   </StrictMode>,
 )
