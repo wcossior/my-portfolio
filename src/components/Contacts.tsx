@@ -5,7 +5,7 @@ import { SiGmail } from "react-icons/si";
 
 export const Contacts = () => {
   return (
-    <div className='flex flex-col flex-1'>
+    <div className='flex flex-col flex-1 animate__animated animate__bounceInDown' style={{ animationDelay: '1.2s' }}>
       <div className='flex-1 flex justify-center my-6'>
         <div className='w-[3px] h-full bg-emerald-400 rounded-sm'></div>
       </div>

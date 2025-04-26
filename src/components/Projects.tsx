@@ -9,7 +9,7 @@ import TodosImg from '../assets/img/Todos.png';
 export const Projects = () => {
 
     return (
-        <div className='mx-25 text-center pb-8'>
+        <div className='mx-25 text-center pb-18'>
             <div className='flex flex-row items-center mb-12'>
                 <div className='flex-2 h-[3px] w-full bg-emerald-400 rounded-sm'></div>
                 <p className='flex-none ml-6 text-6xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent leading-relaxed'>Projects</p>
