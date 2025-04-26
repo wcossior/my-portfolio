@@ -13,7 +13,7 @@ export const Footer = () => {
                     <div className='flex-1 h-[3px] w-full bg-emerald-400 rounded-sm'></div>
                 </div>
                 <div className='flex gap-8 justify-center'>
-                    <a className='hover:text-emerald-400 transition-transform hover:scale-110' href="https://wa.me/69549348" target="_blank" rel="noopener noreferrer">
+                    <a className='hover:text-emerald-400 transition-transform hover:scale-110' href="https://wa.me/59169549348" target="_blank" rel="noopener noreferrer">
                         <FaWhatsapp className='text-[54px]' />
                     </a>
                     <a className='hover:text-emerald-400 transition-transform hover:scale-110' href="https://www.linkedin.com/in/wilder-cossio" target="_blank" rel="noopener noreferrer">
