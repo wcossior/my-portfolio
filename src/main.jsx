@@ -5,7 +5,7 @@ import Landing from './views/Landing'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <div data-theme="sunset">
+    <div className='scroll-smooth' data-theme="sunset">
       <Landing></Landing>
     </div>
   </StrictMode>,

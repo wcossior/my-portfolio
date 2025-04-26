@@ -6,16 +6,21 @@ import { Technologies } from '../components/Technologies';
 import { Projects } from '../components/Projects';
 
 const Landing = () => {
-    
+
     return (
         <div className=''>
             <Nav></Nav>
-            <div className='flex flex-row text-center mx-25 my-10'>
+            <div id='about' className='flex flex-row text-center mx-25 my-10'>
                 <AboutDescription></AboutDescription>
                 <Contacts></Contacts>
             </div>
-            <Technologies></Technologies>
-            <Projects></Projects>
+            <div id="technologies">
+                <Technologies></Technologies>
+            </div>
+            <div id="projects">
+                <Projects></Projects>
+            </div>
+            
         </div>
     )
 }
