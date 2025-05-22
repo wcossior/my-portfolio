@@ -10,7 +10,7 @@ export const AboutDescription = () => {
             <p className='animate__animated animate__fadeInLeft font-normal text-xl'>Frontend Developer</p>
             <div className='flex items-center animate__animated animate__fadeInLeft' style={{ animationDelay: '0.9s' }}>
                 <span className='flex-none font-light text-emerald-400 text-[20rem]'>{'['}</span>
-                <pre className='flex-1 text-gray-400 whitespace-pre-wrap'>
+                <p className='flex-1 text-gray-400 whitespace-pre-wrap leading-7'>
                     👋 Hello! I’m a Frontend developer passionate about creating clean, responsive, and user-centered interfaces.
                     
                     I’ve worked on several projects using React, TypeScript, TailwindCSS, and DaisyUI, including a travel website, a movie site, and a task management app. I also built a facial recognition system for personnel tracking, designed to be fully responsive.
@@ -20,7 +20,7 @@ export const AboutDescription = () => {
                     I value clean code, accessibility, and attention to detail. I'm always improving my skills, currently exploring tools like Zustand and refining my UI design with Tailwind and DaisyUI.
 
                     I enjoy collaborating in teams, receiving feedback, and continuously growing as a developer.
-                </pre>
+                </p>
 
             </div>
         </div>
