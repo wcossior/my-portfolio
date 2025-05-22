@@ -2,7 +2,7 @@
 
 This is my personal frontend portfolio website where I showcase my projects and skills. Built with React and TypeScript, it features a modern and responsive design using CSS, Tailwind CSS, DaisyUI, and HTML. The portfolio highlights my journey and capabilities in frontend development.
 
-You can try it here: [MiniSocialNetwork](https://my-portfolio-rouge-kappa-72.vercel.app/)
+You can try it here: [My portfolio](https://my-portfolio-rouge-kappa-72.vercel.app/)
 
 ## Features
 
