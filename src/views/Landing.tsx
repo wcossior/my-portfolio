@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Nav from '../components/Nav';
 import { AboutDescription } from '../components/AboutDescription';
 import { Contacts } from '../components/Contacts';
@@ -20,7 +20,7 @@ const Landing = () => {
     return (
         <div className=''>
             <Nav></Nav>
-            <div id='about' className='flex flex-row text-center mx-25 my-10'>
+            <div id='about' className='flex flex-row text-center mx-14 md:mx-25 my-10'>
                 <AboutDescription></AboutDescription>
                 <Contacts></Contacts>
             </div>

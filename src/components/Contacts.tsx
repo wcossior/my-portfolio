@@ -1,11 +1,10 @@
-import React from 'react'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 
 export const Contacts = () => {
   return (
-    <div className='flex flex-col flex-1 animate__animated animate__bounceInDown' style={{ animationDelay: '1.2s' }}>
+    <div className='hidden md:flex flex-col flex-1 animate__animated animate__bounceInDown mt-16 md:mt-0' style={{ animationDelay: '1.2s' }}>
       <div className='flex-1 flex justify-center my-6'>
         <div className='w-[3px] h-full bg-emerald-400 rounded-sm'></div>
       </div>
